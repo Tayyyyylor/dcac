@@ -2,6 +2,11 @@ import React from 'react';
 
 import { useState, useEffect, useRef, useMemo, useLayoutEffect } from 'react';
 import "./Slider.css";
+import francisSinge from '../../assets/francis-singe.png'
+import francisConf from '../../assets/francis-conf.png'
+import francisGriffe from '../../assets/francis-griffe.png'
+import francisNonVerbal from '../../assets/francis-nonverbal.png'
+import atelier from '../../assets/photo_atelier.png'
 
 
 function Slider() {
@@ -10,11 +15,11 @@ function Slider() {
 
 
   const photosData = useMemo(() => [
-    { src: "../../assets/francis-singe.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
-    { src: "../../assets/francis-conf.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
-    { src: "../../assets/francis-griffe.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
-    { src: "../../assets/francis-nonverbal.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
-    { src: "../../assets/photo_atelier.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
+    { src: francisSinge, title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
+    { src: francisConf, title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
+    { src: francisGriffe, title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
+    { src: francisNonVerbal, title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
+    { src: atelier, title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
   ], []) 
   const intervalRef = useRef(null);
   const imgRef = useRef(null);

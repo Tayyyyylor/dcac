@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Logo.css"
 import { useState, useLayoutEffect, useRef } from "react"
+import defaultLogo from '../../assets/TRANSPARENT.png'
 
 function Logo() {
 
@@ -24,13 +25,13 @@ function Logo() {
     <>
       {isMobile ? (
         <a href="/">
-    <img className="img-logo" src="../../assets/TRANSPARENT.png" alt=""/>
+    <img className="img-logo" src={defaultLogo} alt=""/>
         </a>
   ) : (
             <div >
               <a href="/" className="logo-container">
                 
-    <img className="img-logo" src="../../assets/TRANSPARENT.png" alt=""/>
+    <img className="img-logo" src={defaultLogo} alt=""/>
     <h1 ref={elementRef} className="main-title"> De <span className="color-letter-title">c</span>oeur à <span className="color-letter-title">c</span>oeur</h1>
 </a>
             </div>

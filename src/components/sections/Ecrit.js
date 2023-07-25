@@ -40,7 +40,7 @@ function Ecrit() {
 
         <h2 ref={titleRef} className='title-article'>Langage Écrit</h2>
 
-          <div ref={imgRef} className="banniere-article"><p className='text-article-test'>L&quotécriture est un moyen extraordinaire de partager notre voix et nos pensées d&quotune
+          <div ref={imgRef} className="banniere-article img-ecrit"><p className='text-article-test'>L&quotécriture est un moyen extraordinaire de partager notre voix et nos pensées d&quotune
 manière réfléchie et durable. C&quotest comme si nos mots prenaient vie sur la page,
 transmettant nos idées et nos émotions avec une profondeur et une clarté
 uniques.</p>
