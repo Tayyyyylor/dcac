@@ -10,11 +10,11 @@ function Slider() {
 
 
   const photosData = useMemo(() => [
-    { src: "/public/francis-singe.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
-    { src: "/public/francis-conf.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
-    { src: "/public/francis-griffe.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
-    { src: "/public/francis-nonverbal.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
-    { src: "/public/photo_atelier.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
+    { src: "/assets/francis-singe.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
+    { src: "/assets/francis-conf.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
+    { src: "/assets/francis-griffe.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
+    { src: "/assets/francis-nonverbal.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
+    { src: "/assets/photo_atelier.png", title:"Conseil en langage verbal - Non verbal - Écrit", description:"PAR FRANCIS DECKER"},
   ], []) 
   const intervalRef = useRef(null);
   const imgRef = useRef(null);
@@ -50,7 +50,7 @@ function Slider() {
       <img src={photosData[currentPhoto].src} alt="img slider" ref={imgRef} className="img-slider"/>
 
         <div ref={textRef} className='text-slider-container'>
-        <img className="img-logo-slider" src="/public/TRANSPARENT.png" alt=""/>
+        <img className="img-logo-slider" src="/assets/TRANSPARENT.png" alt=""/>
       <h2 className='title-header' ref={imgRef}>{photosData[currentPhoto].title }</h2>
 
       <p  className='p-slider'>{photosData[currentPhoto].description}</p>

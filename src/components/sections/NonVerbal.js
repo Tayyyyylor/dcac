@@ -19,10 +19,7 @@ function NonVerbal() {
               const text5Ref = useRef(null);
               const titleRef = useRef(null);
               const imgRef = useRef(null);
-            
-              const handleVisibilityNonVerbal = (visible) => {
-                setIsVisible(visible);
-              };
+       
             
               useLayoutEffect(() => {
                 if (isVisible) {

@@ -18,10 +18,7 @@ function Services() {
         const serviceImg3Ref = useRef(null);
         const serviceText3Ref = useRef(null);
         
-        const handleVisibilityServices = (visible) => {
-                setIsVisible(visible);
-        };
-        
+ 
         useLayoutEffect(() => {
                 if (isVisible) {
                         serviceImg1Ref.current.classList.add("img-services-slidein");

@@ -20,9 +20,7 @@ function Verbal() {
         const titleRef = useRef(null);
         const imgRef = useRef(null);
         
-        const handleVisibilityNonVerbal = (visible) => {
-                setIsVisible(visible);
-        };
+      
         
         useLayoutEffect(() => {
                 if (isVisible) {
