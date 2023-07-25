@@ -1,0 +1,37 @@
+@font-face {
+    font-family: codeNextBold;
+    src: url("../fonts/codeNextExtraBold.otf")
+  }
+  
+  @font-face {
+    font-family: Domotika;
+    src: url("../fonts/DomotikaMediumItalic.otf")
+  }
+  
+  @font-face {
+    font-family: Kern;
+    src: url("../fonts/KernMedium.otf")
+  }
+  
+  @font-face {
+    font-family: akiv;
+    src: url("../fonts/AktivGrotesk-Black.otf")
+  }
+  
+  
+  body {
+    font-family: 'codeNextBold';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Variables */
+  :root{
+    --skyblue: #81BECE;
+    --white: #E8EDE7;
+    --yellow: #f0ab20;
+    --blue: #134e85;
+  }
+  
+  
+  
