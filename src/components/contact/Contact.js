@@ -1,8 +1,8 @@
 import "./Contact.css"
 import React from 'react';
-import logoInstagram from "/assets/instagramColor.png"
-import logoFacebook from "/assets/facebook.png"
-import logo from "/assets/TRANSPARENT.png"
+import logoInstagram from "../../assets/instagramColor.png"
+import logoFacebook from "../../assets/facebook.png"
+import logo from "../../assets/TRANSPARENT.png"
 
 function Contact() {
   return (

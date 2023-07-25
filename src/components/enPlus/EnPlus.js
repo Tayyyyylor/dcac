@@ -1,11 +1,11 @@
 import "./EnPlus.css"
 import React from 'react';
-import conference from "/assets/conference.png"
-import domicileDemandeur from "/assets/domiciledemandeur.png"
-import faceaface from "/assets/faceaface.png"
-import domicile from "/assets/maison2.png"
-import podcast from "/assets/podcast.png"
-import visio from "/assets/visio.png"
+import conference from "../../assets/conference.png"
+import domicileDemandeur from "../../assets/domiciledemandeur.png"
+import faceaface from "../../assets/faceaface.png"
+import domicile from "../../assets/maison2.png"
+import podcast from "../../assets/podcast.png"
+import visio from "../../assets/visio.png"
 
 
 

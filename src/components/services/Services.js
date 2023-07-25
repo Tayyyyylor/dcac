@@ -40,18 +40,18 @@ function Services() {
                         <div className="cards-container-services">
                         
                         <div className="icon-text-container">
-                        <img src="/CoeurBlanc.png" alt="" className="img-services" />
+                        <img src="../../assets/CoeurBlanc.png" alt="" className="img-services" />
                         <h2>Préparation au(x) rendez-vous amoureux</h2>                          
                         </div>
                         
                         <div className="icon-text-container">
-                        <img src="/EntretienBlanc.png" alt="" className="img-services" />
+                        <img src="../../assets/EntretienBlanc.png" alt="" className="img-services" />
                         <h2>Préparation dans l&rsquoobjectif d&rsquoun recrutement</h2>                          
                         </div>
                         
                         
                         <div className="icon-text-container">
-                        <img src="/ReseauxBlanc.png" alt="" className="img-services" />
+                        <img src="../../assets/ReseauxBlanc.png" alt="" className="img-services" />
                         <h2>Préparation au(x) rendez-vous amoureux</h2>                          
                         </div>
                         
@@ -63,14 +63,14 @@ function Services() {
                         <div className="cards-container-services">
                         
                         <div className="icon-text-container">
-                        <img ref={serviceImg1Ref} src="/CoeurBlanc.png" alt="" className="img-services" />
+                        <img ref={serviceImg1Ref} src="../../assets/CoeurBlanc.png" alt="" className="img-services" />
                         <div>
                         <h2 className="title-services">Préparation au(x) rendez-vous amoureux</h2>                                          
                         <p ref={serviceText1Ref} className="icon-text-text">Avec mon coaching : Cela peut être le premier, le second <span className="color-text-services">rendez-vous amoureux...</span>  ou une discussion pouvant être un moment de bascule dans l&rsquoobjectif de préservation d&rsquoun couple ou d&rsquoun couple en devenir. </p> </div>
                         </div>
                         
                         <div className="icon-text-container">
-                        <img ref={serviceImg2Ref} src="/EntretienBlanc.png" alt="" className="img-services" />
+                        <img ref={serviceImg2Ref} src="../../assets/EntretienBlanc.png" alt="" className="img-services" />
                         <div>
                         <h2 className="title-services">Préparation dans l&rsquoobjectif d&rsquoun recrutement</h2>                                          
                         
@@ -80,7 +80,7 @@ function Services() {
                         
                         
                         <div className="icon-text-container">
-                        <img ref={serviceImg3Ref} src="/ReseauxBlanc.png" alt="" className="img-services" />
+                        <img ref={serviceImg3Ref} src="../../assets/ReseauxBlanc.png" alt="" className="img-services" />
                         <div>
                         
                         
