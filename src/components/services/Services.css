@@ -1,0 +1,116 @@
+.services-container {
+    padding: 1rem;
+    background-color: var(--skyblue);
+  }
+  
+  .services-title {
+    color: var(--blue);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .text-services {
+    font-family: Kern;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .desc-services-container {
+  margin-top: 50px;
+  margin: 0 70px;
+  text-align: justify;
+  }
+  .text-desc-services {
+    margin-bottom: 20px;
+  }
+  .cards-container-services {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .icon-text-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .img-services {
+      width: 50px;
+  }
+  
+  
+  .title-services {
+    margin-bottom: 20px;
+    color: var(--blue);
+  }
+    @media screen and (min-width:1024px) {
+      
+      .services-title {
+          font-size: 50px;
+          margin-bottom: 30px;
+      }
+      
+   
+      .cards-container-services {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+      }
+      
+      .color-text-services {
+          color: var(--blue);
+      }
+  
+      .icon-text-container {
+          display: flex;
+          margin: 0 100px;
+          gap: 3rem;
+          align-items: center;
+      }
+      
+      
+      .img-services {
+          width: 100px;
+      }
+      
+      
+      .img-services-slidein {
+      
+          animation-name: slideIn;
+          animation-duration: 1s;
+          animation-timing-function: linear;
+          animation-fill-mode: forwards;
+      }
+      .icon-text-text-slidein {
+      
+          animation-name: slideInLeft;
+          animation-duration: 1s;
+          animation-timing-function: linear;
+          animation-fill-mode: forwards;
+      }
+      
+      .icon-text-text {
+          text-align: justify;
+      }
+      
+      @keyframes slideIn {
+          0% {
+            transform: translateX(-200%);
+          }
+         
+          100% {
+            transform: translateX(0);
+          }
+        }
+      
+        
+      @keyframes slideInLeft {
+          0% {
+            transform: translateX(150%);
+          }
+         
+          100% {
+            transform: translateX(0);
+          }
+        }
+    }
