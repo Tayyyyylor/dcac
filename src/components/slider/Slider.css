@@ -1,0 +1,152 @@
+#slider {
+    position: relative;
+    width: 100%;
+    background-color: var(--skyblue);
+}
+.logo-container {
+  text-align: center;
+}
+.img-slider {
+  width: 100%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.title-header {
+  
+    color: white;
+    font-size: 1.2em;
+}
+
+.p-slider {
+    color: white;
+    font-size: .8em;
+}
+
+.title-slider-visible {
+ 
+    animation-name: fadeInSlider;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  
+
+}
+
+.text-slider-container {
+ display: none;
+}
+.text-slider-visible {
+ 
+    animation-name: fadeInSlider;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+  
+  .img-play-button {
+    width: 50px;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 100%;
+ 
+  }
+.img-logo-slider {
+  width: 100px;
+}
+
+ 
+
+  @keyframes fadeInSlider {
+    0% {
+      opacity: 0;
+      transform: scale(1.5);
+    }
+    30% {
+      opacity: 0.3;
+      transform: scale(1.3);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.2);
+    }
+    70% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+
+@media screen and (min-width: 1024px) {
+    
+.title-header {
+    font-size: 2.4em;
+}
+
+.p-slider {
+    font-size: 1.7em;
+}
+
+.title-slider-visible {
+    animation-name: fadeInSlider;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.text-slider-visible {
+ 
+    animation-name: fadeInSlider;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+  
+  .img-play-button {
+    width: 50px;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 100%;
+ 
+  }
+.img-logo-slider {
+  width: 100px;
+
+}
+
+  .text-slider-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+  right: 20px;
+  left: 20px;
+  margin: 0;
+  }
+ 
+  @keyframes fadeInSlider {
+    0% {
+      opacity: 0;
+      transform: scale(1.5);
+    }
+    30% {
+      opacity: 0.3;
+      transform: scale(1.3);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.2);
+    }
+    70% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+}
