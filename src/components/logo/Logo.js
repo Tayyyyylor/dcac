@@ -10,9 +10,7 @@ function Logo() {
 
 
   const elementRef = useRef(null);
-  const handleVisibilityLogo = (visible) => {
-    setIsVisible(visible);
-  };
+ 
 
   useLayoutEffect(() => {
     if (isVisible) {
@@ -26,7 +24,7 @@ function Logo() {
     <>
       {isMobile ? (
         <a href="/">
-    <img className="img-logo" src="/TRANSPARENT.png" alt=""/>
+    <img className="img-logo" src="/public/TRANSPARENT.png" alt=""/>
         </a>
   ) : (
             <div >
