@@ -27,11 +27,6 @@ function Slider() {
     }
   }, [isVisible]);
 
-  const handleVisibilitySlider = (visible) => {
-    setIsVisible(visible);
-  };
-
-
   useEffect(() => {
     intervalRef.current = setInterval(() => {
       if (currentPhoto === photosData.length - 1) {
@@ -55,7 +50,7 @@ function Slider() {
       <img src={photosData[currentPhoto].src} alt="img slider" ref={imgRef} className="img-slider"/>
 
         <div ref={textRef} className='text-slider-container'>
-        <img className="img-logo-slider" src="./TRANSPARENT.png" alt=""/>
+        <img className="img-logo-slider" src="/public/TRANSPARENT.png" alt=""/>
       <h2 className='title-header' ref={imgRef}>{photosData[currentPhoto].title }</h2>
 
       <p  className='p-slider'>{photosData[currentPhoto].description}</p>
